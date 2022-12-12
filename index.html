@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TenSeñas | Tablero</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./sidebar_left.css">
+  <link rel="stylesheet" href="./sidebar_right.css">
+  <link rel="stylesheet" href="./animated_button_sb_left.css">
+  <link rel="stylesheet" href="./animated_button_sb_right.css">
+  <link rel="stylesheet" href="./main_content.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body id="body-pd">
+  <header class="header" id="header">
+    <div class="header_toggle bx-x">
+
+      <!--button left sidebar-->
+
+      <div id="header-toggle" class="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!--button right sidebar-->
+
+    <div id="header-toggle2" class="arrow-icon">
+      <span class="left-bar"></span>
+      <span class="right-bar"></span>
+    </div>
+
+    </div>
+  </header>
+  <!--Sidebar left-->
+  <div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+      <div>
+        <!-- logo + nombre -->
+        <a href="#" class="nav_logo">
+          <img src="./img/Logo_TenSeñas.svg" alt="" class="logo_tes" />
+          <span class="nav_logo-name">TenSeñas</span>
+        </a>
+        <!-- elementos de la sidebar -->
+        <div class="nav_list">
+          <a href="#" class="nav_link active">
+            <i class="bx bx-grid-alt nav_icon"></i>
+            <span class="nav_name">Tablero</span>
+          </a>
+          <a href="#" class="nav_link">
+            <i class="bx bx-folder nav_icon"></i>
+            <span class="nav_name">Clases</span>
+          </a>
+          <a href="#" class="nav_link">
+            <i class="bx bx-ghost nav_icon"></i>
+            <span class="nav_name">Logros</span>
+          </a>
+          <a href="#" class="nav_link">
+            <i class="bx bx-cog nav_icon"></i>
+            <span class="nav_name">Configuración</span>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- cierre de sesion -->
+      <div id="log_out">
+        <a href="#" class="nav_link">
+          <i class="bx bx-log-out nav_icon"></i>
+          <span class="nav_name">Cerrar Sesion</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- --------------------------------------------------- -->
+
+  <!--Sidebar right-->
+  <div class="r-navbar" id="nav-bar2">
+    <nav class="nav2">
+      <div>
+        <div><i class="bx bx-user-circle user_img"></i>
+          <h6>kiara Diaz</h6>
+        </div>
+        <div class="container-fluid progress_content">
+          <span class="title_r-navbar">Progreso</span>
+          <div class="row">
+            <!-- <div class="col"></div> -->
+            <div class="col">
+              <div class="row"><span class="col">Vocales</span class="col"><span>Basico</span></div>
+            </div>
+            <div class="progress col">
+              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- --------------------------------------------------- -->
+  <!--contenido del tablero-->
+  <div class="height-100" id="main_content">
+    <h4>Contenido principal</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus qui suscipit ipsa blanditiis necessitatibus pariatur animi aut quaerat? Odio ex odit possimus explicabo necessitatibus, inventore quis reiciendis itaque iure nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dicta aut non aperiam ab incidunt, animi at quos labore quasi facere natus voluptatum adipisci quisquam atque libero hic quaerat suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cumque aspernatur unde impedit nobis fugiat saepe? Consectetur sit nesciunt molestiae iste natus architecto ad ducimus distinctio, animi quod voluptatibus odit.</p>
+  </div>
+  <!--cierre del contenido-->
+
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>

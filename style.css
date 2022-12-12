@@ -1,0 +1,47 @@
+
+/* importamos la fuente que ocupemos */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+:root {
+  font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+  --header-height: 3rem;
+  --nav-width: 68px;
+  --first-color: #25A2D5;
+  --first-color-light: #262c30;
+  --white-color: #D7F0FB;
+  --normal-font-size: 1rem;
+  --z-fixed: 100;
+}
+
+.header {
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: var(--white-color);
+  z-index: var(--z-fixed);
+  transition: 0.5s;
+}
+.header_toggle {
+  color: transparent;
+
+}
+
+/* --- */
+body {
+  position: relative;
+  margin: var(--header-height) 0 0 0;
+  padding: 0 1rem 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: 0.5s;
+  background-color: #D7F0FB;
+}
+
