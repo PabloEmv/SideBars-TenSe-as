@@ -46,9 +46,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         // agrega padding al body
         bodypd.classList.toggle("body-pd2");
         // agrega padding al header
-        headerpd.classList.toggle("body-pd2");
-        
-
       });
     }
   };

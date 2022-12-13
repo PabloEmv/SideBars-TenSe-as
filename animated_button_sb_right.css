@@ -5,9 +5,10 @@
     width: 1.6em;
     padding: 0.5em;
     position: relative;
-    right: 60px;
+    right: 72px;
     cursor: pointer;
     top: 5px;
+    transition: 0.5s;
   }
   
   .left-bar {
@@ -67,5 +68,14 @@
   }
 
   .bx-x2 {
-    right: -36px;
+    right: 240px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .arrow-icon {
+      right: 8px;
+    }
+    .bx-x2 {
+      right: 72px;
+    }
   }

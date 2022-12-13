@@ -2,9 +2,26 @@
 /* importamos la fuente que ocupemos */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--first-color)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #11678a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f4a61;
+}
 
 :root {
-  font-family: 'Lato', sans-serif;
 font-family: 'Quicksand', sans-serif;
   --header-height: 3rem;
   --nav-width: 68px;
@@ -24,7 +41,6 @@ font-family: 'Quicksand', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
   background-color: var(--white-color);
   z-index: var(--z-fixed);
   transition: 0.5s;
